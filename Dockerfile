@@ -5,7 +5,7 @@ FROM guacamole/guacamole:1.5.4
 USER root
 RUN mkdir -p /opt/guacamole/lib
 RUN mkdir -p /opt/guacamole/extensions
-RUN mkdir /tmp
+RUN mkdir -p /tmp
 WORKDIR /tmp
 
 # Download jar that supports saml (Azure Entra ID)
