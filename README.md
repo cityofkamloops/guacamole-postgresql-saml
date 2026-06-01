@@ -1,3 +1,5 @@
+> **_NOTE:_** We are no longer using, and thus no longer maintaining this repository.
+
 # guacamole-postgresql-saml
 This repository extends the official Guacamole docker image with SAML and PostgreSQL support
 
